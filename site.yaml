@@ -1,4 +1,5 @@
 ---
 - hosts: stars
+  become: true
   roles:
    - apache
